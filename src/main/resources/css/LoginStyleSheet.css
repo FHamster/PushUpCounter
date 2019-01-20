@@ -1,0 +1,94 @@
+.root {
+    -fx-font-family: "微软雅黑";
+    -fx-font-size: 28px;
+    /*-fx-background-color: #E0FFFF;*/
+    /*-fx-fill: #FBA5B0;*/
+    /*-fx-background-image: url(images/background.png);*/
+    /*-fx-background-size: stretch stretch;*/
+    /*-fx-background-position: center center;*/
+}
+
+.color {
+    -fx-border-color: #FBA5B0;
+    -fx-border-color: #F46F6A;
+    -fx-border-color: #F05364;
+    -fx-border-color: #CC3443;
+    -fx-border-color: #D13735;
+}
+
+.TitleText {
+    -fx-fill: #F05364;
+    -fx-font-size: 32px;
+}
+
+.TextStyle {
+    -fx-fill: #FBA5B0;
+    -fx-font-size: 25px;
+}
+
+.btn {
+    -fx-text-fill: white;
+    -fx-font-size: 20px;
+    -fx-background-color: #FBA5B0;
+}
+
+#CloseBtn {
+    -fx-graphic: url("../img/close.png");
+    -fx-background-color: transparent;
+    -fx-opacity: 1;
+}
+
+#CloseBtn:hover {
+    -fx-opacity: 0.5;
+}
+
+#CloseBtn:pressed {
+    -fx-opacity: 0.2;
+}
+
+#MinimizedBtn {
+    -fx-graphic: url("../img/minimize.png");
+    -fx-background-color: transparent;
+    -fx-opacity: 1;
+
+}
+
+#MinimizedBtn:hover {
+    -fx-opacity: 0.5;
+}
+
+#MinimizedBtn:pressed {
+    -fx-opacity: 0.2;
+}
+
+#CountBtn {
+    -fx-graphic: url("../img/猪肉包.png");
+    -fx-background-color: transparent;
+    -fx-opacity: 1;
+
+}
+
+#CountBtn:hover {
+    -fx-opacity: 0.5;
+}
+
+#CountBtn:pressed {
+    -fx-opacity: 0.2;
+}
+
+#SelectBtn {
+    -fx-fill: white;
+    /*-fx-background-color: linear-gradient(to bottom, #F46F6A 97%, #FBA5B0 100%);*/
+    -fx-background-color: #FBA5B0;
+    -fx-font-size: 20px;
+    -fx-opacity: 1;
+}
+
+
+#SelectBtn:hover {
+    -fx-opacity: 0.5;
+}
+
+#SelectBtn:pressed {
+    -fx-opacity: 0.2;
+}
